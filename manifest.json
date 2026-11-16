@@ -1,4 +1,94 @@
 {
   "schemaVersion": 1,
-  "components": []
+  "components": [
+    {
+      "id": "llm-qwen25-0_5b-ekv1280",
+      "name": "Qwen2.5 0.5B Instruct (سريع وخفيف)",
+      "description": "نموذج صغير وسريع للأسئلة البسيطة؛ جودته أقل في العربية. Small and fast; weaker in Arabic.",
+      "category": "llm",
+      "version": "49bfd323",
+      "url": "https://huggingface.co/litert-community/Qwen2.5-0.5B-Instruct/resolve/49bfd323c25c9dae2118906e1f3ffd16e0729b13/Qwen2.5-0.5B-Instruct_multi-prefill-seq_q8_ekv1280.task",
+      "sizeBytes": 546660344,
+      "sha256": "e608953f169aeb1bd7b9155fec2559825e08453fc209b84eda3a781ed0452fd2",
+      "minRamMb": 3000,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://huggingface.co/litert-community/Qwen2.5-0.5B-Instruct",
+      "required": false,
+      "languages": [
+        "en",
+        "ar",
+        "he"
+      ]
+    },
+    {
+      "id": "llm-qwen25-1_5b-ekv4096",
+      "name": "Qwen2.5 1.5B Instruct (موصى به)",
+      "description": "نموذج متوازن: شروحات أفضل وفهم أفضل للعربية؛ يحتاج هاتفًا بذاكرة 6 جيجا أو أكثر. Recommended balance of quality and speed.",
+      "category": "llm",
+      "version": "60257f9f",
+      "url": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct/resolve/60257f9f1d00ca1f24cc5ce3b829b4139be1ca2b/Qwen2.5-1.5B-Instruct_multi-prefill-seq_q8_ekv4096.task",
+      "sizeBytes": 1598556720,
+      "sha256": "82968d0a6c3872cf016fdbcfc591571605f4c7fd2b0f64d2533df502cc6596b3",
+      "minRamMb": 5500,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://huggingface.co/litert-community/Qwen2.5-1.5B-Instruct",
+      "required": false,
+      "languages": [
+        "en",
+        "ar",
+        "he"
+      ]
+    },
+    {
+      "id": "ocr-ara",
+      "name": "التعرف على النص العربي (OCR)",
+      "description": "يُستخدم لقراءة ملفات PDF الممسوحة والصور العربية. Arabic text recognition for scanned PDFs and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/ara.traineddata",
+      "sizeBytes": 1432056,
+      "sha256": "e3206d3dc87fd50c24a0fb9f01838615911d25168f4e64415244b67d2bb3e729",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "ara"
+      ]
+    },
+    {
+      "id": "ocr-eng",
+      "name": "التعرف على النص الإنجليزي (OCR)",
+      "description": "يُستخدم لقراءة النص الإنجليزي في الصور والملفات الممسوحة. English text recognition.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/eng.traineddata",
+      "sizeBytes": 4113088,
+      "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "eng"
+      ]
+    },
+    {
+      "id": "ocr-heb",
+      "name": "التعرف على النص العبري (OCR)",
+      "description": "يُستخدم لقراءة النص العبري في الصور والملفات الممسوحة. Hebrew text recognition.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/heb.traineddata",
+      "sizeBytes": 961404,
+      "sha256": "11f9e43ab227f786352a50f75c94c2e9906f1baba86d93276da19da7ce0904db",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "heb"
+      ]
+    }
+  ]
 }
