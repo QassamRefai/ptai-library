@@ -2,21 +2,35 @@
   "llm": [
     {
       "id": "llm-qwen25-0_5b",
-      "name": "Qwen2.5 0.5B Instruct (سريع وخفيف)",
-      "description": "نموذج صغير وسريع للأسئلة البسيطة؛ جودته أقل في العربية. Small and fast; weaker in Arabic.",
+      "name": "Qwen2.5 0.5B Instruct (تجريبي)",
+      "description": "أصغر نموذج وأسرعه، لكن إجاباته ضعيفة وكثيرة الأخطاء خصوصًا بالعربية؛ للتجربة فقط. Tiny and fast, but unreliable (especially in Arabic): for testing only.",
       "hf_repo": "litert-community/Qwen2.5-0.5B-Instruct",
-      "file_prefer": ["q8_ekv4096\\.task$", "q8_ekv1280\\.task$"],
+      "file_prefer": [
+        "q8_ekv4096\\.task$",
+        "q8_ekv1280\\.task$"
+      ],
       "minRamMb": 3000,
-      "languages": ["en", "ar", "he"]
+      "languages": [
+        "en",
+        "ar",
+        "he"
+      ]
     },
     {
       "id": "llm-qwen25-1_5b",
       "name": "Qwen2.5 1.5B Instruct (موصى به)",
-      "description": "نموذج متوازن: شروحات أفضل وفهم أفضل للعربية؛ يحتاج هاتفًا بذاكرة 6 جيجا أو أكثر. Recommended balance of quality and speed.",
+      "description": "الخيار الموصى به: أفضل جودة وفهمًا للعربية من النموذج الصغير، ويحتاج هاتفًا بذاكرة 6 جيجا أو أكثر. لا يزال قد يخطئ في المعلومات. Recommended: better quality, still can be wrong on facts.",
       "hf_repo": "litert-community/Qwen2.5-1.5B-Instruct",
-      "file_prefer": ["q8_ekv4096\\.task$", "q8_ekv1280\\.task$"],
+      "file_prefer": [
+        "q8_ekv4096\\.task$",
+        "q8_ekv1280\\.task$"
+      ],
       "minRamMb": 5500,
-      "languages": ["en", "ar", "he"]
+      "languages": [
+        "en",
+        "ar",
+        "he"
+      ]
     }
   ],
   "ocr": [
@@ -40,5 +54,10 @@
     }
   ],
   "tessdata_repo": "tesseract-ocr/tessdata_fast",
-  "allowed_licenses": ["apache-2.0", "mit", "bsd-3-clause", "cc-by-4.0"]
+  "allowed_licenses": [
+    "apache-2.0",
+    "mit",
+    "bsd-3-clause",
+    "cc-by-4.0"
+  ]
 }
