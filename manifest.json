@@ -89,6 +89,142 @@
       "languages": [
         "heb"
       ]
+    },
+    {
+      "id": "ocr-fas",
+      "name": "التعرف على النص: الفارسية (OCR)",
+      "description": "لقراءة النص الفارسية في الصور وملفات PDF الممسوحة. Persian text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/fas.traineddata",
+      "sizeBytes": 431500,
+      "sha256": "db1c0a91208aff00d3cf1ed2c1d23f76419afd5f024688b4f71adc3f2ce4a505",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "fas"
+      ]
+    },
+    {
+      "id": "ocr-urd",
+      "name": "التعرف على النص: الأردية (OCR)",
+      "description": "لقراءة النص الأردية في الصور وملفات PDF الممسوحة. Urdu text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/urd.traineddata",
+      "sizeBytes": 1398718,
+      "sha256": "62e8250ce2a994106e313a82e26a516a39e2cf159d0ce3c5b5008387fd0d555f",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "urd"
+      ]
+    },
+    {
+      "id": "ocr-tur",
+      "name": "التعرف على النص: التركية (OCR)",
+      "description": "لقراءة النص التركية في الصور وملفات PDF الممسوحة. Turkish text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/tur.traineddata",
+      "sizeBytes": 4550554,
+      "sha256": "7393381111e1152420fc4092cb44eef4237580d21b92bf30d7d221aad192c6b7",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "tur"
+      ]
+    },
+    {
+      "id": "ocr-fra",
+      "name": "التعرف على النص: الفرنسية (OCR)",
+      "description": "لقراءة النص الفرنسية في الصور وملفات PDF الممسوحة. French text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/fra.traineddata",
+      "sizeBytes": 1130365,
+      "sha256": "ced037562e8c80c13122dece28dd477d399af80911a28791a66a63ac1e3445ca",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "fra"
+      ]
+    },
+    {
+      "id": "ocr-spa",
+      "name": "التعرف على النص: الإسبانية (OCR)",
+      "description": "لقراءة النص الإسبانية في الصور وملفات PDF الممسوحة. Spanish text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/spa.traineddata",
+      "sizeBytes": 2294433,
+      "sha256": "6f2e04d02774a18f01bed44b1111f2cd7f3ba7ac9dc4373cd3f898a40ea6b464",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "spa"
+      ]
+    },
+    {
+      "id": "ocr-deu",
+      "name": "التعرف على النص: الألمانية (OCR)",
+      "description": "لقراءة النص الألمانية في الصور وملفات PDF الممسوحة. German text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/deu.traineddata",
+      "sizeBytes": 1525436,
+      "sha256": "19d219bbb6672c869d20a9636c6816a81eb9a71796cb93ebe0cb1530e2cdb22d",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "deu"
+      ]
+    },
+    {
+      "id": "ocr-rus",
+      "name": "التعرف على النص: الروسية (OCR)",
+      "description": "لقراءة النص الروسية في الصور وملفات PDF الممسوحة. Russian text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/rus.traineddata",
+      "sizeBytes": 3861738,
+      "sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "rus"
+      ]
+    },
+    {
+      "id": "ocr-ita",
+      "name": "التعرف على النص: الإيطالية (OCR)",
+      "description": "لقراءة النص الإيطالية في الصور وملفات PDF الممسوحة. Italian text recognition for scans and images.",
+      "category": "ocr",
+      "version": "87416418",
+      "url": "https://github.com/tesseract-ocr/tessdata_fast/raw/87416418657359cb625c412a48b6e1d6d41c29bd/ita.traineddata",
+      "sizeBytes": 2701314,
+      "sha256": "b8f89e1e785118dac4d51ae042c029a64edb5c3ee42ef73027a6d412748d8827",
+      "minRamMb": 0,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/tesseract-ocr/tessdata_fast/blob/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE",
+      "required": false,
+      "languages": [
+        "ita"
+      ]
     }
   ]
 }
