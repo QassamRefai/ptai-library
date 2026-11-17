@@ -51,6 +51,54 @@
       "name": "التعرف على النص العبري (OCR)",
       "description": "يُستخدم لقراءة النص العبري في الصور والملفات الممسوحة. Hebrew text recognition.",
       "lang": "heb"
+    },
+    {
+      "id": "ocr-fas",
+      "name": "التعرف على النص: الفارسية (OCR)",
+      "description": "لقراءة النص الفارسية في الصور وملفات PDF الممسوحة. Persian text recognition for scans and images.",
+      "lang": "fas"
+    },
+    {
+      "id": "ocr-urd",
+      "name": "التعرف على النص: الأردية (OCR)",
+      "description": "لقراءة النص الأردية في الصور وملفات PDF الممسوحة. Urdu text recognition for scans and images.",
+      "lang": "urd"
+    },
+    {
+      "id": "ocr-tur",
+      "name": "التعرف على النص: التركية (OCR)",
+      "description": "لقراءة النص التركية في الصور وملفات PDF الممسوحة. Turkish text recognition for scans and images.",
+      "lang": "tur"
+    },
+    {
+      "id": "ocr-fra",
+      "name": "التعرف على النص: الفرنسية (OCR)",
+      "description": "لقراءة النص الفرنسية في الصور وملفات PDF الممسوحة. French text recognition for scans and images.",
+      "lang": "fra"
+    },
+    {
+      "id": "ocr-spa",
+      "name": "التعرف على النص: الإسبانية (OCR)",
+      "description": "لقراءة النص الإسبانية في الصور وملفات PDF الممسوحة. Spanish text recognition for scans and images.",
+      "lang": "spa"
+    },
+    {
+      "id": "ocr-deu",
+      "name": "التعرف على النص: الألمانية (OCR)",
+      "description": "لقراءة النص الألمانية في الصور وملفات PDF الممسوحة. German text recognition for scans and images.",
+      "lang": "deu"
+    },
+    {
+      "id": "ocr-rus",
+      "name": "التعرف على النص: الروسية (OCR)",
+      "description": "لقراءة النص الروسية في الصور وملفات PDF الممسوحة. Russian text recognition for scans and images.",
+      "lang": "rus"
+    },
+    {
+      "id": "ocr-ita",
+      "name": "التعرف على النص: الإيطالية (OCR)",
+      "description": "لقراءة النص الإيطالية في الصور وملفات PDF الممسوحة. Italian text recognition for scans and images.",
+      "lang": "ita"
     }
   ],
   "tessdata_repo": "tesseract-ocr/tessdata_fast",
